@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>:::Bienvenido al Sistema de Ventas On-line ABC::: Ingrese su Usuario y Clave</title>
+        <link href="Recursos/css/bootstrap.css" rel="stylesheet">
+        <link href="Recursos/css/forms.css" rel="stylesheet">
+        <link href="Recursos/css/styles.css" rel="stylesheet">
+        <link href="Recursos/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="Recursos/css/themes.css" id="themes"  rel="stylesheet">
+        <link href="Recursos/css/estilospropios.css" rel="stylesheet">
+
+        <script type="text/javascript" src="Recursos/js/function.js"></script>
+        <script src="Recursos/js/ValidaLogin.js"></script>
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="titulo">
+                    <center><b><img src="Recursos/img/text_security.png"></b></center>
+                </div>
+            </div>
+        </div>
+        <div class="titulo">
+            <center><img src="Recursos/img/logo2.png"></center>
+        </div>
+        <form name="formulario" method="post" id="formulario" action="ServletInicioSesion">
+            <div class="login-container less">
+                <div class="well-login">
+                    <div class="control-group">
+                        <div class="controls">
+                            <div>
+                                <span class="error">Usuario y/o contraseña inválidos</span><br>
+                                <br><input type="text" placeholder="Usuario" name="nombre" id="nombre" class="login-input user-name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <div>
+                                Contraseña
+                                <input type="password" placeholder="Contraseña" name="clave" id="clave" class="login-input user-pass" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <button class="btn btn-inverse login-btn" type="button" onclick="VerificaLogeo();">Ingresar</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="navbar navbar-fixed-bottom">
+            <div class="navbar-inner">
+                <div class="titulo">
+                    VentasOnline@2016 Super Veliz todos los derechos reservados.<br>
+                    
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>

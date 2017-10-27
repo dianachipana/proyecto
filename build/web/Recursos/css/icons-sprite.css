@@ -1,0 +1,42 @@
+.nav-icon{ display: inline-block;
+ width: 20px;
+ height: 20px;
+ /*margin-right: .3em;*/
+ line-height: 20px;
+ margin-top:-3px;
+ vertical-align: text-top;
+ background:url(../img/sprite-icons/white-icons.png) no-repeat;}
+
+
+.white-icons{ display: inline-block;
+ width: 20px;
+ height: 20px;
+ /*margin-right: .3em;*/
+ line-height: 20px;
+ margin-top:-3px;
+ vertical-align: text-top;
+background:url(../img/sprite-icons/white-icons.png) no-repeat;}
+
+
+.dashboard-icons{ display: inline-block;
+ width: 40px;
+ height: 40px;
+ /*margin-right: .3em;*/
+ line-height: 40px;
+ vertical-align: text-top;
+background:url(../img/sprite-icons/dashboard-icons-dark.png) no-repeat;}
+
+.dashboard-icons-colors{display: inline-block;
+ width: 40px;
+ height: 40px;
+ /*margin-right: .3em;*/
+ line-height: 40px;
+ vertical-align: text-top;
+background:url(../img/sprite-icons/icon_sl.png) no-repeat !important;}
+
+.flag{background-position: -140px 0px !important}
+.admin_user{background-position: -640px -40px !important}
+.cog_3{background-position: -860px -40px !important}
+.shuffle{background-position: -880px -60px !important}
+.list{background-position: -100px -80px !important}
+.users_blk{background-position: -480px -200px;}
